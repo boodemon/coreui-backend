@@ -1,0 +1,85 @@
+.sidebar {
+    color: #000;
+    background: #18b9f8;
+}
+.sidebar .nav-link.active, .sidebar .navbar .active.dropdown-toggle, .navbar .sidebar .active.dropdown-toggle {
+    color: #fff;
+    background: #000;
+}
+.sidebar .nav-title {
+    color: #000;
+}
+.sidebar .nav-link, .sidebar .navbar .dropdown-toggle, .navbar .sidebar .dropdown-toggle {
+    color: #000;
+}
+.sidebar .nav-link:hover, .sidebar .navbar .dropdown-toggle:hover, .navbar .sidebar .dropdown-toggle:hover {
+    background: #45c3f5;
+    color:#000;
+}
+.sidebar .nav-link i, .sidebar .navbar .dropdown-toggle i, .navbar .sidebar .dropdown-toggle i {
+    color: #000;
+}
+
+.sidebar .nav-link.active i, 
+.sidebar .navbar .active.dropdown-toggle i, 
+.navbar .sidebar .active.dropdown-toggle i {
+    color: #fff;
+}
+
+.sidebar .nav-link.active:hover i, 
+.sidebar .navbar .active.dropdown-toggle i, 
+.navbar .sidebar .active.dropdown-toggle i {
+    color: #000;
+}
+
+.action{
+    text-align: right;
+}
+.action > a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.table thead th {
+   text-align: center;
+}
+
+.sidebar .nav .nav-item .nav-link:hover, 
+.sidebar .nav .nav-item .nav-link:hover i, 
+.sidebar .nav .nav-item .navbar .dropdown-toggle:hover, 
+.navbar .sidebar .nav .nav-item .dropdown-toggle:hover
+ {
+    color: #fff !important;
+    background: #000 !important;
+}
+
+.table thead th {
+    vertical-align: middle !important;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+
+table td p{
+  line-height: 1.1;
+  margin:4px;
+}
+
+
+.table-bordered thead th, .table-bordered thead td {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: middle;
+    border-bottom: 2px solid #c2cfd6;
+    text-align: center;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #c2cfd6;
+}
+.table-data th {
+    background: #18b9f8;
+    color: #000;
+}

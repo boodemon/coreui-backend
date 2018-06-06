@@ -1,0 +1,12 @@
+// Here you can add other styles
+$bgHead : '#29363d';
+table{
+    th{
+        background:$bgHead;
+    }
+}
+.top-search{
+    position: absolute;
+    right: 0;
+    top:10px;
+}
